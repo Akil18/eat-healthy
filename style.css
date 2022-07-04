@@ -1,0 +1,135 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: #575757;
+}
+
+#tb-h1 {
+  font-size: 56px;
+  margin-top: 30%;
+  margin-bottom: 0;
+}
+
+h1 > span {
+  color: #fba24f;
+}
+
+#male-img {
+  width: 100%;
+}
+
+.flexible-container {
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.half-width p {
+  margin-bottom: 40px;
+}
+
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(to right, #fba24f, #ff1e1e);
+  padding: 10px 40px;
+  color: white;
+  font-weight: 700;
+  border-radius: 100px;
+  margin-top: 20px;
+}
+
+.top-banner {
+  padding: 0% 10%;
+  margin-bottom: 20px;
+}
+
+.about-me {
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 2.5%;
+}
+
+.am-p {
+  padding-top: 5%;
+  padding-right: 10%;
+}
+
+#female-img {
+  width: 40%;
+  height: 95%;
+  padding-left: 15%;
+  margin-top: 3%;
+}
+
+.recipe-info {
+  text-align: center;
+  margin: 2% 5%;
+}
+
+.recipe-info > p {
+  padding: 0% 25%;
+}
+
+.recipe-card {
+  width: 100%;
+  height: auto;
+  margin-left: 1%;
+  margin-right: 1%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px gray;
+}
+
+.recipes {
+  padding: 0% 10%;
+}
+
+.recipe-card > img {
+  width: 95%;
+  height: auto;
+  align: center;
+  padding: 2.5%;
+  height: auto;
+}
+
+.recipe-card > h2 {
+  padding-left: 5%;
+}
+
+.recipe-card > p {
+  font-size: 14px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.additional-info {
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 10%;
+  box-shadow: 0px 0px 20px gray;
+}
+
+.stats > h1 {
+  color: black;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+
+footer > h1 {
+  font-size: 24px;
+}
+
+footer > p {
+  color: white;
+}
